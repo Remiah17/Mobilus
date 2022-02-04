@@ -1,0 +1,321 @@
+body {
+  background-image: url("./BG.jpg");
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+  border-radius: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  margin-top: 5%;
+  min-height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #21272475;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-container {
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+  border-bottom: solid #535353 1px;
+  height: 150px;
+}
+
+.mobilous-logo {
+  height: 100px;
+  width: 480px;
+  margin-top: 2%;
+  margin-left: 10%;
+  opacity: 1;
+}
+
+.right-header-container {
+  height: 100px;
+  width: 380px;
+  margin-top: -5%;
+  margin-left: 25%;
+  color: white;
+}
+
+.play-now-button {
+  height: 50px;
+  width: 220px;
+  font-size: 1.2rem;
+  background-color: #2a623d;
+  border-style: none;
+  border-radius: 25px;
+  color: white;
+}
+.play-now-button:hover {
+  height: 55px;
+  width: 230px;
+  font-size: 1.5rem;
+  background-color: #2a623d;
+  color: white;
+}
+
+.join-text {
+  font-size: 1rem;
+}
+.navbar {
+  display: flex;
+  background-color: #21272475;
+  height: 50px;
+  flex-direction: row;
+}
+
+.navbar-button {
+  background-color: #21272400;
+  border-style: none;
+  color: white;
+  margin-left: 2%;
+  width: 120px;
+  padding-top: 1%;
+}
+
+.navbar-button:hover {
+  background-color: #2a623d;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-img-container {
+  height: 800px;
+  width: 800px;
+  margin-top: 5%;
+}
+
+.home-img {
+  height: 300px;
+}
+
+.minigame-container {
+  display: flex;
+  width: 90%;
+  height: 800px;
+  margin-top: 1%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  text-align: center;
+  overflow: hidden;
+}
+
+.minigame-container:hover {
+  overflow-y: auto;
+}
+
+.minigame-item {
+  background-color: rgba(99, 99, 99, 0.527);
+  height: 350px;
+  width: 400px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.minigame-img {
+  height: 150px;
+  width: 250px;
+  margin-top: 30px;
+}
+
+.minigame-title {
+  height: 30px;
+  width: 90%;
+  font-size: 1.3rem;
+  margin-left: 5%;
+}
+
+.minigame-description {
+  height: 95px;
+  width: 90%;
+  font-size: 0.8rem;
+  margin-left: 5%;
+  overflow: hidden;
+}
+.minigame-description:hover {
+  overflow-y: auto;
+}
+
+.leaderboard-title {
+  margin-top: -5%;
+}
+
+.leaderboard-list-container {
+  background-color: rgba(44, 44, 44, 0.555);
+  height: 580px;
+  border-radius: 10px;
+  overflow: hidden;
+  list-style: none;
+}
+
+.leaderboard-list-container:hover {
+  overflow-y: auto;
+}
+
+.leaderboard-person-list-item {
+  background-color: rgba(83, 83, 83, 0.555);
+  width: 90%;
+  height: 80px;
+  margin-left: 2%;
+  display: flex;
+  margin-top: 2%;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+}
+
+.leaderboard-person-list-text {
+  margin: 3% 5%;
+}
+
+.team-img {
+  height: 220px;
+  width: 130px;
+  margin-top: 30px;
+}
+
+.store-item {
+  background-color: rgba(99, 99, 99, 0.527);
+  height: 350px;
+  width: 400px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.store-img {
+  height: 220px;
+  width: 130px;
+}
+
+.store-title {
+  margin-top: -10%;
+  font-size: 1.5rem;
+}
+
+.store-description {
+  height: 50px;
+  width: 90%;
+  font-size: 1rem;
+  margin-left: 5%;
+  overflow: hidden;
+}
+
+.store-description:hover {
+  overflow-y: auto;
+}
+
+.store-buy-button {
+  margin-top: -10%;
+  height: 40px;
+  width: 80px;
+  border-radius: 25px;
+  border-style: none;
+  background-color: #2a623d;
+  color: white;
+  font-size: 1rem;
+}
+
+.account-button {
+  position: relative;
+  display: inline-block;
+  background-color: transparent;
+  border-style: none;
+  text-align: center;
+  color: white;
+  width: 120px;
+  margin-left: 2%;
+  font-size: 0.9rem;
+}
+.account-button:hover {
+  background-color: #2a623d;
+}
+
+.form-container {
+  text-align: center;
+}
+
+.form-label {
+  margin: 10% 5%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.form-input {
+  display: flex;
+  width: 80%;
+  height: 35px;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  border-style: none;
+  text-align: center;
+}
+
+.form-button {
+  margin: 0 5%;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-style: none;
+  background-color: #2a623d;
+  color: white;
+}
+
+.form-dropdown-text {
+  font-size: 1rem;
+}
+
+.form-dropdown {
+  display: flex;
+  width: 80%;
+  height: 35px;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  border-style: none;
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Mobilus/static/css/main.33d6a2cf.css",
+    "main.js": "/Mobilus/static/js/main.f7a55244.js",
+    "static/media/BG.jpg": "/Mobilus/static/media/BG.f592ee01baee52593f7a.jpg",
+    "index.html": "/Mobilus/index.html",
+    "main.33d6a2cf.css.map": "/Mobilus/static/css/main.33d6a2cf.css.map",
+    "main.f7a55244.js.map": "/Mobilus/static/js/main.f7a55244.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33d6a2cf.css",
+    "static/js/main.f7a55244.js"
+  ]
+}

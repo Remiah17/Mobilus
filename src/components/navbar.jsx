@@ -22,23 +22,23 @@ export default function MenuAppBar() {
 
   return (
     <div className="navbar">
-      <a href="/home" className="navbar-button">
+      <a href="/Mobilus/home" className="navbar-button">
         <HomeIcon fontSize="small" />
       </a>
 
-      <a href="/minigames" className="navbar-button">
+      <a href="/Mobilus/minigames" className="navbar-button">
         Mini-games
       </a>
-      <a href="/leaderboard" className="navbar-button">
+      <a href="/Mobilus/leaderboard" className="navbar-button">
         Leaderboards
       </a>
-      <a href="/rules" className="navbar-button">
+      <a href="/Mobilus/rules" className="navbar-button">
         Rules
       </a>
-      <a href="/team" className="navbar-button">
+      <a href="/Mobilus/team" className="navbar-button">
         Team
       </a>
-      <a href="/store" className="navbar-button">
+      <a href="/Mobilus/store" className="navbar-button">
         Store
       </a>
       <select
@@ -48,10 +48,10 @@ export default function MenuAppBar() {
         onChange={handleChange}
       >
         <option value="Account">Account</option>
-        <option value="Login" href="/login">
+        <option value="Login" href="/Mobilus/login">
           Login
         </option>
-        <option value="Register" href="/register">
+        <option value="Register" href="/Mobilus/register">
           Register
         </option>
       </select>

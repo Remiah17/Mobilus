@@ -18,15 +18,15 @@ function App() {
       <Navbar className="navbar" />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomeBody />} />
-          <Route path="/home" element={<HomeBody />} />
-          <Route path="/minigames" element={<MiniGames />} />
-          <Route path="/leaderboard" element={<Leaderboard />} />
-          <Route path="/rules" element={<Rules />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/store" element={<Store />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/Mobilus/" element={<HomeBody />} />
+          <Route path="/Mobilus/home" element={<HomeBody />} />
+          <Route path="/Mobilus/minigames" element={<MiniGames />} />
+          <Route path="/Mobilus/leaderboard" element={<Leaderboard />} />
+          <Route path="/Mobilus/rules" element={<Rules />} />
+          <Route path="/Mobilus/team" element={<Team />} />
+          <Route path="/Mobilus/store" element={<Store />} />
+          <Route path="/Mobilus/register" element={<Register />} />
+          <Route path="/Mobilus/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>

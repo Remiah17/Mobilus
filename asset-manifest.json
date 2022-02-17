@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Mobilus/static/css/main.33d6a2cf.css",
-    "main.js": "/Mobilus/static/js/main.e96e8015.js",
+    "main.css": "/Mobilus/static/css/main.df63b875.css",
+    "main.js": "/Mobilus/static/js/main.224f4a0f.js",
     "static/media/BG.jpg": "/Mobilus/static/media/BG.f592ee01baee52593f7a.jpg",
     "index.html": "/Mobilus/index.html",
-    "main.33d6a2cf.css.map": "/Mobilus/static/css/main.33d6a2cf.css.map",
-    "main.e96e8015.js.map": "/Mobilus/static/js/main.e96e8015.js.map"
+    "main.df63b875.css.map": "/Mobilus/static/css/main.df63b875.css.map",
+    "main.224f4a0f.js.map": "/Mobilus/static/js/main.224f4a0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.33d6a2cf.css",
-    "static/js/main.e96e8015.js"
+    "static/css/main.df63b875.css",
+    "static/js/main.224f4a0f.js"
   ]
 }
